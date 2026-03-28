@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas CSS - Annisa Azzahra Anggoro</title>
+    
+    <link rel="stylesheet" href="style_latihan6.css">
+
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            background-color: #f0f2f5;
+        }
+
+        .hero-section {
+            background-color: #1a2a6c;
+            color: white;
+            padding: 50px;
+            text-align: center;
+        }
+
+        .status-badge {
+            background-color: #ff9800;
+            padding: 5px 15px;
+            border-radius: 20px;
+            display: inline-block;
+            font-weight: bold;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            margin: 20px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+
+    <header class="hero-section">
+        <h1>Dashboard</h1>
+        <div class="status-badge">Project 6 CSS on HTML</div>
+    </header>
+
+    <div style="border: 2px dashed #1a2a6c; padding: 10px; margin: 20px; text-align: center;">
+        <p>Nama: <strong>Annisa Azzahra Anggoro</strong> | NIM: 2507411049 | Kelas TI2B</p>
+    </div>
+
+    <h2 style="padding-left: 20px;">Layout Flexbox (Navigation)</h2>
+    <nav class="flex-container">
+        <div class="flex-item">Home</div>
+        <div class="flex-item">About</div>
+        <div class="flex-item">Contact Us</div>
+    </nav>
+
+    <h2 style="padding-left: 20px;">Layout Grid (Content)</h2>
+    <div class="grid-container">
+        <div class="grid-box">Content 1</div>
+        <div class="grid-box">Content 2</div>
+        <div class="grid-box">Content 3</div>
+        <div class="grid-box">Content 4</div>
+    </div>
+
+</body>
+</html>
